@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SplitLogs", "SplitLogs\SplitLogs.csproj", "{B7893E92-1EEE-4293-BD6A-D61A6255508E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B7893E92-1EEE-4293-BD6A-D61A6255508E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7893E92-1EEE-4293-BD6A-D61A6255508E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7893E92-1EEE-4293-BD6A-D61A6255508E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7893E92-1EEE-4293-BD6A-D61A6255508E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {92BFEF33-1B70-4C15-86F0-46DCCE8B678E}
+	EndGlobalSection
+EndGlobal
