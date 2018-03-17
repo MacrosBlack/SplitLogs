@@ -40,7 +40,8 @@ namespace SplitLogs
                     var match = cmdrNameRe.Match(content);
                     if (match.Success)
                     {
-                        var cmdrName = match.Groups[1].Value;
+                        // EdAstro does not like spaces.
+                        var cmdrName = match.Groups[1].Value.Replace(" ","_");
                         var cmdrNameDir = Path.Combine(fi.DirectoryName, cmdrName);
                         if (!Directory.Exists(cmdrNameDir))
                         {
